@@ -1,0 +1,43 @@
+.range {
+    position: relative;
+    width: auto;
+    height: 20px;
+    padding: 20px 0;
+    
+    &__track {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      left: 0;
+      display: block;
+      height: 2px;
+      background: #aaa;
+      cursor: pointer;
+    }
+
+    &__slider_left {
+      position: absolute;
+      left: 0%; 
+    }
+
+    &__slider_right {
+      position: absolute;
+      right: 0%; 
+    }
+
+    &__slider {
+      position: absolute;
+      top: 50%;
+      display: block;
+      width: 8px;
+      height: 8px;
+      margin-top: -5px;
+      background: #666;
+      border: 1px solid #666;
+      border-radius: 50%;
+      outline: none;
+      cursor: pointer;
+      transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+      appearance: none;
+    }
+}
