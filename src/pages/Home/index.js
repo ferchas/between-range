@@ -46,7 +46,7 @@ export const Home = () => {
         – The user can drag two bullets through the range line.
         – Min value and max value can't be crossed in range
         – For this example, provide a mocked service returning min and max values that
-        have to be used in the component. Example: {rangeValues: []}
+        have to be used in the component. Example: rangeValues: []
         – Do as many unit tests as you can.
       </p>
     
