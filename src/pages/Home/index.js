@@ -16,8 +16,8 @@ export const Home = () => {
         1. Normal range from min to max.
         2. Fixed number of options range.
       </div>
+      <h3>Provide a localhost:8080/exercise1 route with the following:</h3>
       <p>
-        Provide a localhost:8080/exercise1 route with the following:
         – The component CAN'T be a HTML5 input range. It has to be a custom one.
         – The user can drag two bullets through the range line.
         – The user can click on both currency number label values (min or max) and set a
@@ -33,6 +33,23 @@ export const Home = () => {
         server.
         – Do as many unit tests as you can.
       </p>
+      <h3>Provide a localhost:8080/exercise2 route with the following:</h3>
+      <p>
+        – The component CAN'T be a HTML5 input range. It has to be a custom one.
+        – Given a range of values: [1.99, 5.99, 10.99, 30.99, 50.99, 70.99] the user will only
+        be able to select those values in range
+        – Provide a mocked http service that returns the array of numbers: [1.99, 5.99,
+        10.99, 30.99, 50.99, 70.99]. Use h ttps://www.mockable.io/ or a custom mocked
+        server.
+        – For this type of range, currency values are not input changable. They have to be
+        only a label
+        – The user can drag two bullets through the range line.
+        – Min value and max value can't be crossed in range
+        – For this example, provide a mocked service returning min and max values that
+        have to be used in the component. Example: {rangeValues: []}
+        – Do as many unit tests as you can.
+      </p>
+    
     </Layout>
   );
 };

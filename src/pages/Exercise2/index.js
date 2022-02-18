@@ -18,8 +18,8 @@ export const Exercise2 = () => {
 
 
   const handleRange = (range) => {
-    setMinOut(range.min.toFixed(2));
-    setMaxOut(range.max.toFixed(2));
+    setMinOut(range.min);
+    setMaxOut(range.max);
   };
 
   useEffect(async () => {
